@@ -1,0 +1,612 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Ubuntu:ital,wght@0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@0;1&family=Poppins:wght@400;500&family=Qwitcher+Grypen:wght@700&family=Ubuntu:ital,wght@0,500;1,400&display=swap');
+
+/* font-family: 'Kanit', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Qwitcher Grypen', cursive;
+font-family: 'Ubuntu', sans-serif; */   
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.hero{
+    width: 80%;
+    margin: auto;
+}
+
+/* .max_width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto; 
+} */
+
+/* navbar styling */
+.navbar{
+    background-color: orangered;
+    width: 80%;
+    position: fixed;
+    font-family: 'ubuntu' , sans-serif;
+    height: 8.5%;
+    text-align: center;
+    padding: 0.60%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px 2px rgba(0,0, 0, 2);
+    z-index: 22;
+}
+
+.navbar .max_width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute; 
+}
+
+.navbar .logo{
+   display: flex;
+   align-items: center;
+   margin: 70px
+}
+
+.navbar .logo img{
+ height: 25px; 
+ margin-right:10px;
+}
+
+.navbar .logo .icon {
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'ubuntu' ,'Poppins', sans-serif;
+    margin-right:300px;
+}
+
+.navbar .menu{
+    list-style: none;
+    display: flex;
+}
+
+.navbar .menu li {
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 150;
+    margin-left: 45px;
+}
+
+.navbar .menu li:hover{
+    background-color: aliceblue;
+    color: orangered;
+    transition: 0.6s;
+
+}
+/* order section styling */
+.order .order_content{
+    background-color: rgb(242, 238, 222);
+    height: 150px;
+    width: 800px;
+    margin: 20px;
+    position: relative;
+    left: 128px;
+    bottom: 145px;
+    border-radius: 15px;
+    border-color: cornsilk;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 5px 2px 2px 2px cornsilk;
+}
+
+.order .order_content .takeaway{
+    color: crimson;
+    font-size: 20px;
+    padding-left: 49px;
+    position: relative;
+    left: -1px;
+    bottom: -21px;
+}
+
+.order .order_content .reservation{
+    color: crimson;
+    font-size: 20px;
+    padding-left: 49px;
+    position: relative;
+    left: -1px;
+    bottom: -21px;
+}
+
+.order .order_content .dropdown-selection  .postcode{
+    height: 33px;
+    width: 220px;
+    position: relative;
+    left: 36px;
+    bottom: -54px;
+
+}
+
+.order .order_content .dropdown-selection  .cuisine{
+    height: 33px;
+    width: 220px;
+    position: relative;
+    left: 66px;
+    bottom: -54px;
+
+}
+
+.order .order_content .dropdown-selection  .find{
+    background-color: crimson;
+    color: aliceblue;
+    height: 33px;
+    width: 220px;
+    position: relative;
+    left: 82px;
+    bottom: -54px;
+
+}
+
+/* home section start styling */
+.home{
+    background: url('./Image/image7.png')center no-repeat;
+    background-size: 100%;
+    height: 70vh;
+    font-family: 'ubuntu' , 'Kanit','Poppins', sans-serif;
+    display: flex;
+
+}
+
+.home_content{
+     display: flex;
+    
+}
+.home .home_content .text-1{
+    margin: 126px;
+    width: 55%;
+    margin-left: 150px;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: bold;
+    display: inline-block;
+}
+
+.home .home_content .text-2{
+ 
+    width: 37%;
+    margin: 171px;
+    margin-left: -488px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.leave #l1 {
+     margin-top: -180px;
+     float: left;
+     height: 85px;
+     position: absolute;
+     left: 160px;   
+ }
+  #l2{
+    height: 65px;
+    float: right;
+    margin-top: -200px;
+    position: absolute;
+    right: 200px;
+    bottom: 130;
+  }
+
+
+  /* feacture section styling start */
+  .feactured{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 52px;
+    position: absolute;
+    bottom: -650px;
+
+  }
+
+  .feactured .card h4{
+      justify-content: center;
+      color: crimson;
+      position: relative;
+      left: 11%;
+      top: -200px;
+      font-family: 'Qwitcher Grypen', cursive;
+      font-size: 30px;
+  }
+
+  .feactured .card h2{
+    justify-content: center;
+    color:rgb(123, 86, 86);
+    position: relative;
+    left: 13%;
+    top: -190px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+  }
+
+  .feactured .box_container{
+    width: 80%;
+   display: flex;
+   flex-direction: row;
+   position: relative;
+   left: -2%;
+   bottom: 146px;
+   top: 12%;
+  }
+
+  .feactured .box_container .box{
+    position: relative;
+    margin-left: 25px;
+    left: 105px;
+  }
+
+
+  .box_container .box img {
+      height: 130px;
+  }
+
+ .box_container .box h5{
+    font-size: 15px;
+    font-weight: 800;
+    position: relative;
+    bottom: -1px;
+    left: -46px;
+ }
+
+ .box_container .box i{
+       color: rgb(220, 90, 43);
+       position: relative;
+       bottom: 15px;
+       right: -69px;
+ }
+
+ .box_container .box p{
+     color: brown;
+     font-size: 10px;
+     text-overflow: ellipsis;
+     position: relative;
+     bottom: 10px;
+     right: 21px;
+ }
+
+ .box_container .box .time1{
+     color: orangered;
+     font-size: 12px;
+     position: relative;
+     bottom: 10px;
+     right: 18px;
+ }
+
+ .box_container .box .time2{
+    font-size: 12px;
+    position: relative;
+    bottom: 10px;
+    right: -23px;
+}
+
+.box_container .box .btn{
+    background-color: orangered;
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 6px;
+    right: -3px;
+}
+
+/* payment section styling start */
+.payment{
+    height: 500%;
+    position: absolute;
+    /* bottom: 45px;
+    left: 20px; */
+
+}
+
+
+.payment .pay_with{
+    position: absolute;
+    bottom: 348px;
+    left: 72px;
+}
+
+.payment .pay_with #payment1{
+    height: 356px;
+    position: absolute;
+    bottom: 1750px;
+    left: -73px;
+}
+
+.payment .pay_with h2{
+    color:white;
+    position: absolute;
+    font-size: 30px;
+    width: 502px;
+    font-weight: 800;
+    bottom: 1980px;
+    left: 220px;
+    z-index: 2;  
+}
+
+.payment .pay_with .overlay{
+    background-color: #0000008a;
+    height: 356px;
+    position: relative;
+    bottom: 1750px;
+    left: -74px;
+    width: 1082px;
+}
+
+.payment .pay_with .payment_via{
+    height: 250px;
+    width: 850px;
+    position: absolute;
+    bottom: 1690px;
+    left: 109px;
+    list-style: none;
+    display: flex;
+}
+
+.payment .pay_with .payment_via img{
+    width: 120px;
+    margin-right: 178px;  
+}
+
+.subcription{
+    height: 356px;
+    position: absolute;
+    bottom: -1305px;
+    left: 133px;
+}
+
+.subcription .subscriptions{
+    height: 150px;
+    width: 1084px;
+    position: absolute;
+    bottom: 206px;
+    left: 0px;
+}
+
+.subcription p{
+    color: white;
+    position: absolute;
+    font-size: 18px;
+    width: 660px;
+    font-weight: 500;
+    bottom: 296px;
+    left: 239px;
+    z-index: 21;
+    font-family: 'Poppins', sans-serif;
+}
+
+.subcription .btn_subcription{
+    position: absolute;
+    bottom: 253px;
+    left: 335px;
+    height: 34px;
+    width: 586px;
+}
+
+.subcription .btn_subcription  input{
+    height: 28px;
+    width: 250px;
+    border-radius: 10px 0px 0px 10px ;
+}
+.subcription .btn_subcription button {
+    height: 28px;
+    width: 150px;
+    border-radius: 0px 10px 10px 0px ;
+}
+
+/* custumer view section style start */
+.view{
+    height: 550px;
+    width: 1082px;
+    position: absolute;
+    bottom: -1637px;
+    left: 145px;
+    opacity: 0.85;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.view h4{
+    justify-content: center;
+    color: crimson;
+    font-weight: 900;
+    position: relative;
+    bottom: -68px;
+    left: 476px;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 30px;
+    
+}
+
+.view h1{
+    justify-content: center;
+    color: rgb(54, 52, 52);
+    font-weight: 900;
+    position: relative;
+    bottom: -68px;
+    left: 375px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+}
+
+.view .box_container2{
+    position: relative;
+    bottom: -74px;
+    left: -37px;
+    display: flex;
+    flex-direction: row;
+}
+.view .box_container2 .boxs{
+    background-color: rgb(228, 172, 172);
+    position: relative;
+    bottom: -74px;
+    left: 0px;
+    height: 162px;
+    width: 280px;
+    margin-left: 82px;
+    border-radius: 10px;
+}
+
+.view .box_container2 .boxs li {
+    list-style: none;
+}
+
+.view .box_container2 .boxs li p{
+    color: black;
+    font-size: 15px;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: medium;
+    position: relative;
+    list-style: none;
+}
+
+.view .box_container2 .boxs li i{
+    color: black;   
+    position: relative;
+    left: 182px;
+    bottom: 85px;
+}
+
+.view .box_container2 .boxs li img{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    left: 178px;
+    z-index: 2;
+}
+.view .box_container2 .boxs .viw .bar{
+    position: relative;
+    background-color: rgb(238, 7, 53);
+    height: 57px;
+    width: 281px;
+    border-radius: 10px;
+    BOTTOM: 34PX
+}
+
+.view .box_container2 .boxs .viw .bar .nam{
+    position: relative;
+    color: aliceblue;
+    font-size: 25px;
+    text-shadow: 10px;
+    left: 16px;
+
+}
+
+.view .box_container2 .boxs .viw .bar .pos{
+    position: relative;
+    color: aliceblue;
+    font-size: 15px;
+    left: -43px;
+     bottom: -19px;
+}
+
+/* ending section styling */
+.ending{
+    position: relative;
+    left: 2px;
+     bottom: -1590px;
+}
+
+.ending .end{
+      display: flex;
+      background-color: rgb(202, 233, 233);
+}
+
+.ending .end .box_left{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 176px;
+     bottom: 6px;
+}
+
+.ending .end .box_left img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: -23px;
+    left: -1px;
+
+}
+
+.ending .end .box_left #f1{
+    font-size: 28px;
+    color: rgb(238, 40, 80);
+    font-weight: 700;
+    position: relative;
+    bottom: 14px;
+    left: 53px;
+}
+.ending .end .box_left #f2{
+    font-size: 28px;
+    color: black;
+    font-weight: 700;
+    position: relative;
+    bottom: -1px;
+    left: 2px;
+}
+
+.ending .end .box_left p{
+    font-size: 15px;
+    color:whitesmoke;
+    font-weight: 200;
+    position: relative;
+    bottom: -1px;
+    left: 2px;
+}
+
+.ending .end .box_left .social_media{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    position: relative;
+    bottom: -1px;
+    left: -15px;
+    border-style: dotted;
+    border-radius: 1px;
+    border-color: red;
+    
+}
+
+.ending .end .box_left .social_media li{
+    margin: 10px;
+    height: 15px;
+    width: 15px;
+    color: crimson;
+}
+
+.ending .end .box_right{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0px 50px;
+    font-size: 15px;
+    position: relative;
+    bottom: -1px;
+    left: 288px;
+    font-family: 'Poppins','Kanit',sans-serif;
+}
+
+
+.ending .end .box_right .first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: -1px;
+    left: -63px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.ending .end .box_right .first h4{
+    color: crimson;
+}
+
